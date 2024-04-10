@@ -1,8 +1,8 @@
-### You are given an n x n binary matrix grid. You are allowed to change at most one 0 to be 1.
+### You are given an n x n binary matrix grid. You are allowed to change at most one 0 to be 1.[^1]
 
-### Return the size of the largest island in grid after applying this operation.
+### Return the size of the largest island in grid after applying this operation.[^2]
 
-### An island is a 4-directionally connected group of 1s.
+### An island is a 4-directionally connected group of 1s.[^3]
 
  
 
@@ -29,8 +29,10 @@ Explanation: Can't change any 0 to 1, only one island with area = 4.
 ```
  
 
-#### Constraints:
+Constraints:
+```
 n == grid.length
 n == grid[i].length
 1 <= n <= 500
 grid[i][j] is either 0 or 1.
+```
